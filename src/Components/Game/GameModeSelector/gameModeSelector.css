@@ -1,0 +1,14 @@
+.modeText{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.modeBtn{
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    border: none;
+    margin: 0 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}

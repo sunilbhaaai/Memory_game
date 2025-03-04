@@ -1,0 +1,30 @@
+.grid{
+    display: grid;
+    min-height: 500px;
+    max-height: 100vh;
+    padding: 10px;
+    max-width: 600px;
+    gap: 12px;
+    position: relative;
+    background-color: transparent;
+    flex:1;
+}
+
+.win-message{
+    position: absolute;
+    font-size: 1.25rem;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.525);
+    color: white;
+    gap: 10px;
+}
+
+@media screen and (max-width:700px){
+    .grid{
+        min-height: 0;
+    }
+}
